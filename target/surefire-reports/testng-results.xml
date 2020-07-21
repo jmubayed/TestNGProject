@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-21T10:48:41 VET" name="Suite" finished-at="2020-07-21T10:50:24 VET" duration-ms="103084">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@49438269]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-07-21T10:48:41 VET" name="Validating title in the page" finished-at="2020-07-21T10:50:24 VET" duration-ms="103084">
+      <class name="cucumberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@49438269]" started-at="2020-07-21T10:48:41 VET" name="setUpClass" finished-at="2020-07-21T10:48:42 VET" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@49438269]" started-at="2020-07-21T10:48:43 VET" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-21T10:50:24 VET" duration-ms="101037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login into Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@49438269]" started-at="2020-07-21T10:50:24 VET" name="tearDownClass" finished-at="2020-07-21T10:50:24 VET" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Validating title in the page -->
+  </suite> <!-- Suite -->
+</testng-results>
